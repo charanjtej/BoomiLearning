@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><Component xmlns:bns="http://api.platform.boomi.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" branchId="Qjo1NzUyMjQ" branchName="main" componentId="5bc466cf-f8fa-42d6-b6c5-8829b5f598a7" createdBy="charantej.j@testbit.com" createdDate="2026-08-03T09:10:04Z" currentVersion="true" deleted="false" folderFullPath="Training-Charan Tej-Jetty/MySelfLearning/#MySelfConnectors" folderId="Rjo4NzQxMjI4" folderName="#MySelfConnectors" modifiedBy="charantej.j@testbit.com" modifiedDate="2026-08-03T10:32:03Z" name="Connectin | MySQL | FreeDataBase.com" subType="database" type="connector-settings" version="4">
+  <bns:encryptedValues>
+    <bns:encryptedValue isSet="true" path="//DatabaseConnectionSettings/@password"/>
+  </bns:encryptedValues>
+  <bns:description>1. Installed the mysql 9 in account &gt; user libraries (didn't work with local atom)
+2. Copy Pasted Mysql 9 libary in atom-username &gt; userlib&gt; database  directory (if userlib/database is not present, create them manually lower case).
+3. When using latest mysql i.e., 9 and above change the Driver type to custom.
+4. Whenc hanging the custom: make sure connection url is created correctly i.e.,
+Change from jdbc:custom://{0}:{1}/{2}{3} to jdbc:mysql://{0}:{1}/{2}{3}</bns:description>
+  <bns:object>
+    <DatabaseConnectionSettings additional="" className="com.mysql.cj.jdbc.Driver" dbname="sql5834488" driverId="custom" host="sql5.freesqldatabase.com" isPoolEnabled="false" password="82aca43bc123fcdd237a3c16e8a08d21a1e999e20f518c9dad1d12f7859277bacae1481ccca63e353fe63500f36f8b38971af8f6f64c386036cd2d972b5aad4f" port="3306" urlFormat="jdbc:mysql://{0}:{1}/{2}{3}" username="sql5834488">
+      <WriteOptions sqlFilePath="" writeSQLToFile="false"/>
+      <AdapterPoolInfo exhaustedAction="1" maxActive="-1" maxIdle="-1" maxIdleTime="0" maxWait="0" minIdle="0" numberOfTests="0" testIdle="false" testOnBorrow="false" testOnReturn="false" timeBetweenRuns="0" validationQuery=""/>
+    </DatabaseConnectionSettings>
+  </bns:object>
+  <bns:GlobalVariableReferences/>
+</Component>
