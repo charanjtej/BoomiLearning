@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!-- above line is XML prologue -->
+<!-- XML file always must have a root element -->
+<Employee>
+    <!-- a unique identifier for each employee -->
+    <!-- it is always good to have unique identifier -->
+    <employeeId>101</employeeId>
+    <name>
+        <firstname>Kalyan</firstname>
+        <lastname>Kumar</lastname>
+    </name>
+</Employee>
+<!-- Each element must have a opening element <test> and closing element </test> -->
+<!-- There are self closing tags: <element /> -->
